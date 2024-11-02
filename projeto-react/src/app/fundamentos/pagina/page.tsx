@@ -9,9 +9,9 @@ export default function Page() {
             flex flex-col gap-4 
             p-4 h-screen
         `}>
-            <Header />
-            <Content />
-            <Footer />
+            <Header titulo="Meu Titulo" subtitulo="Meu Subtitulo"/>
+            <Content conteudo="Essa aplicação está sendo chamada da pasta 'app'"/>
+            <Footer textoE="Texto lado esquerdo" textoD="Texto lado direito"/>
         </div>
     )
 }
