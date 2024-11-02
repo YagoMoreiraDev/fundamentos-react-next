@@ -1,6 +1,7 @@
 export default function Content() {
     return (
-        <div className="bg-emerald-500 h-36 flex justify-center items-center text-3xl rounded-lg">
+        //O flex-1 faz com que o conteudo ocupe todo o espaço restante;
+        <div className="bg-emerald-500 h-36 flex justify-center items-center flex-1 text-3xl rounded-lg">
             Conteudo
         </div>
     )
