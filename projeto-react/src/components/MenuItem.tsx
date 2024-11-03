@@ -1,6 +1,11 @@
 import Link from "next/link";
 
-export default function MenuItem(props: any) {
+interface MenuItemProps {
+    url: string
+    texto: string
+}
+
+export default function MenuItem(props: MenuItemProps) {
     return (
         <div className="bg-orange-300 text-black p-2 rounded-lg w-full">
             <Link href={props.url}>{props.texto}</Link>
