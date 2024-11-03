@@ -1,6 +1,7 @@
 import Content from "@/components/Content"
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
+import Menu from "@/components/Menu"
 
 export default function Page() {
     return (
@@ -9,8 +10,14 @@ export default function Page() {
             flex flex-col gap-4 
             p-4 h-screen
         `}>
-            <Header titulo="Meu Titulo" subtitulo="Meu Subtitulo"/>
-            <Content conteudo="Essa aplicação está sendo chamada da pasta 'app'"/>
+            <Header titulo="Minha Página #2" subtitulo="Meu Subtitulo"/>
+            <div className="flex flex-1 gap-4">
+                <Menu />
+                <Content>
+                    <h1>Outra página</h1>
+                </Content>
+            </div>
+            
             <Footer textoE="Texto lado esquerdo" textoD="Texto lado direito"/>
         </div>
     )

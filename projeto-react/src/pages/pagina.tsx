@@ -12,7 +12,7 @@ export default function Pagina() {
             p-4
             flex flex-col gap-4
         `}>
-            <Header titulo="Minha Aplicação" subtitulo="Aqui vai o subtitulo"/>
+            <Header titulo="Minha Página #1" subtitulo="Aqui vai o subtitulo"/>
 
             <div className="flex flex-1 gap-4">
                 <Menu />
