@@ -2,6 +2,7 @@ import Content from "@/components/Content";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import MainMenu from "./MainMenu";
+import { IconBrandReact } from "@tabler/icons-react";
 
 interface MainProps {
     titulo: string
@@ -17,7 +18,7 @@ export default function Main(props: MainProps) {
                 <Content>
                     {props.children}
                 </Content>
-                <Footer textoE="Texto lado esquerdo" textoD="Texto lado direito"/>
+                <Footer icone={<IconBrandReact />} textoE="Aprendendo React" textoD="FormaçãoDev"/>
             </div>
         </div>
     )

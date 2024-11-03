@@ -9,7 +9,7 @@ export default function Menu() {
             <div className="flex flex-col mt-4">
                 <p className="text-sm text-zinc-700 mb-2">Fundamentos:</p>
                 <MenuItem icone={<IconBraces />} texto="JSX - Call Var" url="/fundamentos/chamando-variaveis"/>
-                <MenuItem icone={<IconFunction />} texto="Call Funções" url="//fundamentos/chamando-funcoes"/>
+                <MenuItem icone={<IconFunction />} texto="Call Funções" url="/fundamentos/chamando-funcoes"/>
                 <MenuItem icone={<IconClipboardText />} texto="Pagina #1" url="/pagina"/>
                 <MenuItem icone={<IconClipboardText />} texto="Pagina #2" url="/fundamentos/pagina"/>
             </div>
